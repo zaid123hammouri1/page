@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4CAF50">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>برنامج استشارات</title>
+</head>
+<body>
+    <header>
+        <h1>مرحبا بك في برنامج الاستشارات</h1>
+    </header>
+    <main>
+        <section class="services">
+            <h2>خدماتنا</h2>
+            <ul>
+                <li>استشارة قانونية</li>
+                <li>استشارة نفسية</li>
+                <li>استشارة طبية</li>
+            </ul>
+        </section>
+        <section class="form">
+            <h2>طلب استشارة</h2>
+            <form id="consultForm">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+       <script src="app.js"></script>
+</body>
+</html>
